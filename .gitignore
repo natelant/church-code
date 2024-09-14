@@ -1,3 +1,5 @@
 # Enter file contents here
+*.png
+
 /docs
 *.pdf
