@@ -117,13 +117,12 @@ When we find ourselves in the mud… again. May we not spend any time looking do
 
 **Alma 33:19-22** – O my brethren, if ye could be healed by merely casting about your eyes that ye might be healed, would ye not behold quickly, or would ye rather harden your hearts in unbelief, and be slothful, that ye would not cast about your eyes, that ye might perish?
 
-May we take the next step and get out of the mud. In fact, what is the MOST important step we can take in our journey? Is it the last step in our journey? Is it the first step of the journey? Was it the step that we just took—the one that got us here? I believe the most important step we can take, is the next step<sup>3</sup>. 
+May we take the next step and get out of the mud. In fact, what is the MOST important step we can take in our journey? Is it the last step in our journey? Is it the first step of the journey? Was it the step that we just took—the one that got us here? I believe the most important step we can take, is the next step. 
 
-No matter what has happened in our pasts… whether it was years ago, last week, or last night, I invite each of us to re-turn toward the Savior and let him heal you<sup>4</sup>.
+No matter what has happened in our pasts… whether it was years ago, last week, or last night, I invite each of us to re-turn toward the Savior and let him heal you<sup>3</sup>.
 
 
 ## Footnotes
 1. Alma 10...
 2. Mosiah 27:23-25
-3. Brandon Sanderson - Oathbringer
-4. 3 Nephi 9:13
+3. 3 Nephi 9:13
