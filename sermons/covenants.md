@@ -1,21 +1,23 @@
-# Title
+# Increased Power Through Our Covenants With God
 
-I was asked to speak on the recent conference talk from 
-Sister Dennis, "Put Ye On the Lord Jesus Christ". One quote 
-stuck out to me that says:
+In the last (April) General Conference, Sister J. Anette Dennis said:
 
-> [Our Prophet] has spoken repeatedly about covenants for years and especially since becoming President of the Church. Learn from his teachings about the beautiful blessings and increased power and capacity that can be yours through making and keeping covenants with God. - Sister J. Anette Dennis (April 2024)
+> [Our Prophet] has spoken repeatedly about covenants for years and especially since becoming President of the Church. Learn from his teachings about the *beautiful blessings and increased power and capacity that can be yours* through making and keeping covenants with God. - Sister J. Anette Dennis (April 2024)
 
 ## Deep Dive
 
 So I decided to take a deep dive into the talks she referenced 
-from our Prophet, President Russell M. Nelson. In just 5 talks, 
-he mentioned 49 promises to those who keep their covenenants, 
-and he mentioned a couple of things that we can do to obtain these promises.
-In my talk today, I want to discuss what he is asking us to do, and what
-promises we can obtain.
+from our Prophet, President Russell M. Nelson, focusing on the 
+"beautiful blessings and increased power" that he frequently mentions. In just 5 talks, 
+he mentioned 49 promises to those who make and keep their covenenants, 
+and he mentioned a couple of areas where we can focus our efforts to obtain these promises.
+In my talk today, I want to discuss what promises we can obtain, 
+and where we can focus our efforts.
 
 ### Promises
+
+As I read these promises, believe them. Pay attention in your heart to 
+what the Spirit of God might teach you.
 
 - Access to "all the spiritual blessings of the church"
 - Access to all the spiritual treasures the Lord has for His children
@@ -68,23 +70,46 @@ and full of love for Heavenly Father and for Jesus Christ
 - He will pour out peace
 
 
+These sound amazing! Maybe there was something that stood out to you.
+I want to highlight two that impressed me:
 
+1. Direct access to the power of God
+2. Strengthened and guided in your decisions
 
+Now think of this: how might your life look different if you had more of the
+power of God and revelation from God in your life? 
 
+Perhaps we would be more christlike, better examples/contributors at home, or 
+more valuable in a career to provide for our families.
 
+I testify that the Lord *can* and *will* give us strength and open the windows of heaven. 
+
+I think of two examples from the Book of Mormon when it comes to 
+1. Direct access to the power of God and 2. Being strengthened and guided in our decisions.
+First, I think of the army of Helaman; "they were men of truth and soberness," 
+and "there was not one sould of them who did perish;" Because of how they lived their lives,
+they were able to access *directly* the power of God.
+
+Second, I think of the Brother of Jared, seeking revelation to guide his people
+across the ocean. He asked the Lord to show him how to provide air and light
+in the boats they had built. Then the Lord gave him specific instructions for air,
+and then opened the heavens to give them light. 
 
 
 ## Expectations
 
-So how do we draw upon this power? Well President Nelson said
+So how do we draw upon this power? How do we get the heavens to open?
+Well President Nelson has offered some insight into this as well:
 
 > This process is neither quick nor easy, but it is spiritually invigorating. (Spiritual Treasures, Nov 2019)
 
 > It takes persistent rigorous spiritual work... It takes consistent daily effort (Let God Previal, Oct 2020)
 
-> Overcoming the world is not an event that happens in a day or two. It happens over a lifetime as we repeatedly embrace the doctrine of Christ. (Overcome the World and Find Rest, Oct 2022)
+> It is not an event that happens in a day or two. It happens over a lifetime as we repeatedly embrace the doctrine of Christ. (Overcome the World and Find Rest, Oct 2022)
 
-### Quick and Easy vs Consistent and Rigorous
+It is interesting that he specifically says it is **not** quick and easy, 
+because--I think--that we are too used to quick and easy. Think about it.
+The world provides a quick solution for anytime we feel pain:
 
 | Quick and Easy                     | Consistent and Rigorous                |
 |------------------------------------|----------------------------------------|
@@ -92,45 +117,53 @@ So how do we draw upon this power? Well President Nelson said
 | Amazon                             | Saving money, building a business |
 | Entertainment - Netflix, Spotify   | Physical strength - Olympians, sports, music  |
 | Information - Google, Siri, ChatGPT  | Learning a language         |
-| Amazon                             | Strong relationships  |
-| Amazon                             | Sports, Music            |
-| Amazon                             | Testimony and conversion                |
+| Communication - FT, messages, insta | Strong relationships  |
+
+I think that what President Nelson is saying is a lot like learning to play an instrument
+or becoming an Olympian. It is hard! and sometimes you might feel like quiting! 
+But trust these promises and dig deep, the Lord is cheering you on.
+
+Now three areas that I'd like to highlight where President Nelson has added emphasis.
+
+1. Serve others
+2. Give up things of the world
+3. Attend the temple
 
 
 ## Serve Others
 
 > My dear sisters, your power will increase as you serve others. - President Russell M. Nelson (Spiritual Treasures, Nov 2019)
 
-Service... what do you think of? Do you think of sacrifice? 
+Service... what do you think of? Do you think of a family vacation next year
+to Mexico to build a school classroom then go to the beach? Or do you think of 
+small ways to serve those around you, your spouse, your family, your ward? 
+Maybe a text or a phone call to see how they're doing. Maybe a visit or an invitation.
+Maybe it's being more kind at work or at school. Maybe it's volunteering somewhere
+(sheesh I haven't done that in a while...).
+
+When you think of service, do you think of sacrifice? 
 Does the word sacrifice make you think of sacrament?
 Does the word sacrament make you think of covenants?
 
 Sacrifice and sacrament come from the same Latin root *sacer* meaning *holy*. 
 
-## Overcome the World and Let God Prevail
+## Give Up Things of the World
 
-> Before the Savior submitted Himself to the agony of Gethsemane and Calvary, He declared to His Apostles, “In the world ye shall have tribulation: but be of good cheer; I have overcome the world.”3 Subsequently, Jesus entreated each of us to do the same when He said, “I will that ye should overcome the world.” (Overcome the World and Find Rest, Oct 2022)
-
-> How, then, do we overcome the world? King Benjamin taught us how. He said that “the natural man is an enemy to God” and remains so forever “unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord.” (Overcome the World and Find Rest, Oct 2022)
-
-> Part of this endeavor will require you to put aside many things of this world. Sometimes we speak almost casually about walking away from the world with its contention, pervasive temptations, and false philosophies. But truly doing so requires you to examine your life meticulously and regularly. As you do so, the Holy Ghost will prompt you about what is no longer needful, what is no longer worthy of your time and energy. As you shift your focus away from worldly distractions, some things that seem important to you now will recede in priority. You will need to say no to some things, even though they may seem harmless. As you embark upon and continue this lifelong process of consecrating your life to the Lord, the changes in your perspective, feelings, and spiritual strength will amaze you! - President Russell M. Nelson (Spiritual Treasures, Nov 2019)
+> Part of this endeavor will require you to put aside many things of this world. Sometimes we speak almost casually about walking away from the world with its contention, pervasive temptations, and false philosophies. But truly doing so requires you to examine your life meticulously and regularly. As you do so, the Holy Ghost will prompt you about what is no longer needful, what is no longer worthy of your time and energy. As you shift your focus away from worldly distractions, some things that seem important to you now will recede in priority. *You will need to say no to some things, even though they may seem harmless.* As you embark upon and continue this lifelong process of consecrating your life to the Lord, the changes in your perspective, feelings, and spiritual strength will amaze you! - President Russell M. Nelson (Spiritual Treasures, Nov 2019)
 
 > Are you willing to let God prevail in your life? Are you willing to let God be the most important influence in your life? Will you allow His words, His commandments, and His covenants to influence what you do each day? Will you allow His voice to take priority over any other? Are you willing to let whatever He needs you to do take precedence over every other ambition? Are you willing to have your will swallowed up in His? - President Russell M. Nelson (Let God Prevail, Oct 2020)
 
-> Now, overcoming the world certainly does not mean becoming perfect in this life, nor does it mean that your problems will magically evaporate—because they won’t. And it does not mean that you won’t still make mistakes. But overcoming the world does mean that your resistance to sin will increase. Your heart will soften as your faith in Jesus Christ increases.8 Overcoming the world means growing to love God and His Beloved Son more than you love anyone or anything else. (Overcome the World and Find Rest, Oct 2022)
+> Now, overcoming the world certainly does not mean becoming perfect in this life, nor does it mean that your problems will magically evaporate—because they won’t. And it does not mean that you won’t still make mistakes. But overcoming the world does mean that your resistance to sin will increase. Your heart will soften as your faith in Jesus Christ increases. Overcoming the world means growing to love God and His Beloved Son more than you love anyone or anything else. (Overcome the World and Find Rest, Oct 2022)
 
 The Lord is not requiring us to give up everything. 
 But there are times when He does ask a lot of us.
 Think of the young man in the new testament who was asked
 to sell everything he has and to follow the Savior (). 
-What does that mean?
+What does that mean? I think its a reminder to measure where your *heart* is.
 Sometimes it means we need to give up **power, possessions, popularity, and pleasures** 
-of this world. Think about these words
+of this world. President Nelson teaches that these are NOT
+sources of happiness. 
 
-- Power
-- Possessions
-- Popularity
-- Pleasures - this one I could talk about all day...
 
 ## Worship in the Temple
 
@@ -139,6 +172,25 @@ of this world. Think about these words
 > Everything we believe and every promise God has made to His covenant people come together in the temple. (The Temple and Your Spiritual Foundation, Oct 2021)
 
 > If you don’t yet love to attend the temple, go more often—not less. Let the Lord, through His Spirit, teach and inspire you there. I promise you that over time, the temple will become a place of safety, solace, and revelation. (The Temple and Your Spiritual Foundation, Oct 2021)
+
+
+## Conclusion
+
+By concentrating on these three areas, 
+(service to others, giving up things of this world, and worshiping in the temple)
+our covenants become more central in our lives,
+and then we start to access the power of God, and the heavens start to open.
+
+Be patient brothers and sisters, it isn't supposed to happen overnight.
+But the effort needs to start today. Think about how we can serve more, 
+think about what of the world we can give up, and think about when we can
+go to the temple. Let's start today to draw nearer to the Lord and find 
+strength in Him.
+
+I testify that He is with us, as we make efforts to grow. It is hard, but I know
+He hears and answers prayers. I know we can find Him in the temple. And I know
+we can return to live in His presence--that's the whole reason we are trying so hard.
+
 
 ## Assignments
 - Study Prayerfully section 25 of the Doctrine and Covenants and discover
@@ -155,6 +207,3 @@ your highest priority.
 - Watch for miracles to happen in your life.
 - Each day, record the thoughts that come to you as you pray;
 then follow through diligently
-
-
-## Conclusion
