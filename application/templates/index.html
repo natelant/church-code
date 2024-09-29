@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripture Study Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        /* Add styles for the tabs */
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tab link */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Scripture Study Assistant</h1>
+
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Introduction')" id="defaultOpen">Introduction</button>
+        <button class="tablinks" onclick="openTab(event, 'Sample')">Sample</button>
+        <button class="tablinks" onclick="openTab(event, 'WordAnalysis')">Word Analysis</button>
+    </div>
+
+    <div id="Introduction" class="tabcontent">
+        <h2>Introduction</h2>
+        <p>
+            Welcome to the Scripture Study Assistant. This web app is designed to help you with your scripture study. You can use the Word Analysis tool
+            to analyze the words in the scriptures and see how they are used.
+
+        </p>
+    </div>
+
+    <!-- Tab content -->
+    <div id="Sample" class="tabcontent">
+        <h2>Sample</h2>
+        <form action="/calculate" method="POST">
+            <input type="text" name="number1" placeholder="Enter first number" required>
+            <input type="text" name="number2" placeholder="Enter second number" required>
+
+            <select name="operation">
+                <option value="add">Add</option>
+                <option value="subtract">Subtract</option>
+                <option value="multiply">Multiply</option>
+                <option value="divide">Divide</option>
+            </select>
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        {% if result is not none %}
+            <h3>Result: {{ result }}</h3>
+        {% endif %}
+    </div>
+
+    <div id="WordAnalysis" class="tabcontent">
+        <h2>Word Analysis</h2>
+        <form action="/word_analysis" method="POST">
+            <input type="text" name="word" placeholder="Enter a 'word' or 'phrase'" required>
+            <button type="submit">Analyze</button>
+        </form>
+        {% if results is not none %}
+            <h3>Results for: {{ word }}</h3>
+            <ul>
+                {% for item in results %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            <div id="pie-chart">{{ fig_html | safe }}</div>
+        {% endif %}
+    </div>
+
+    
+
+    
+
+    <script>
+        // Function to open specific tab
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+
+            // Store the current tab in local storage
+            localStorage.setItem('currentTab', tabName);
+        }
+
+        // Automatically open the default tab or the last opened tab
+        window.onload = function() {
+            var currentTab = localStorage.getItem('currentTab') || "Introduction";
+            document.getElementById(currentTab).style.display = "block";
+            document.querySelector(`.tablinks[id="${currentTab}"]`).className += " active";
+        };
+    </script>
+
+</body>
+</html>
