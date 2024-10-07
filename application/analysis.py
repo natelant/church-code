@@ -4,7 +4,7 @@ from collections import Counter
 import plotly.graph_objects as go
 import plotly.offline as pyo
 
-def analyze_word(input_word):
+def analyze_word(input_word, keep_case):
     # Load the JSON data
     with open('scriptures_db/data/json/scriptures.json', 'r') as file:
         scriptures_data = json.load(file)
@@ -12,6 +12,8 @@ def analyze_word(input_word):
     # Create a list to store the data
     data = []
     key_word = input_word # keep the original case
+
+    key_word = input_word if keep_case else input_word.lower()  # Set key_word based on checkbox
 
     # Process each verse
     for verse in scriptures_data:
@@ -21,9 +23,11 @@ def analyze_word(input_word):
         chapter_number = verse['chapter_number'] 
         verse_number = verse['verse_number']
         verse_short_title = verse['verse_short_title']
+        scripture_text_lower = scripture_text.lower() if not keep_case else scripture_text  # Adjust case
 
-        # Count occurrences of the specific phrase "Lamb of God" in the scripture text
-        count = scripture_text.count(key_word)
+
+        # Count occurrences of the key_word in the scripture text
+        count = scripture_text_lower.count(key_word)
 
         # Append the data with volume, book, chapter, and count
         if count > 0:  # Only include if the count is greater than 0

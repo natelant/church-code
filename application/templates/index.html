@@ -90,15 +90,18 @@
         <h2>Word Analysis</h2>
         <form action="/word_analysis" method="POST">
             <input type="text" name="word" placeholder="Enter a 'word' or 'phrase'" required>
+            <label>
+                <input type="checkbox" name="keep_case" value="true"> Keep Original Case
+            </label>
             <button type="submit">Analyze</button>
         </form>
         {% if results is not none %}
             <h3>Results for: {{ word }}</h3>
-            <ul>
+            <!-- <ul>
                 {% for item in results %}
                     <li>{{ item }}</li>
                 {% endfor %}
-            </ul>
+            </ul> -->
             <div id="pie-chart">{{ fig_html | safe }}</div>
         {% endif %}
     </div>

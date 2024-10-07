@@ -44,9 +44,10 @@ def calculate():
 def word_analysis():
     if request.method == 'POST':
         word = request.form['word']
+        keep_case = request.form.get('keep_case') == 'true'  # Get the checkbox value
         try:
-            # Call the analyze_word function
-            df = analyze_word(word)
+            # Call the analyze_word function with keep_case
+            df = analyze_word(word, keep_case)
             print(df)  # Debugging line to check data
 
             if not df.empty:
