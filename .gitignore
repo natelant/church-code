@@ -1,7 +1,11 @@
 # Enter file contents here
 *.png
 *.pyc
-
+data
 /docs
 *.pdf
-data
+*.html
+*.json
+*.db
+*.txt
+*.csv
