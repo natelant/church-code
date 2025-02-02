@@ -30,35 +30,50 @@ df = pd.read_sql_query(
 df['date_published'] = pd.to_datetime(df['date_published'])
 df['year'] = df['date_published'].dt.year
 
-# ------------------------------------------------------------------------------------------------
-# Filters for apostles and prophets
-df = df[
-    df['author_role'].str.contains('Twelve') |  # Matches any role containing "Twelve"
-    df['author_role'].str.contains('First Presidency') |  # Matches First Presidency roles
-    df['author_role'].str.contains('President of the Church')  # Exact match for President of the Church
-]
+# First, let's see what roles President Nelson has had
+# print("\nPresident Nelson's roles:")
+# nelson_roles = df[df['listed_author'].str.contains('Russell M. Nelson', na=False)]['author_role'].unique()
+# print(nelson_roles)
 
+# Filters for apostles and prophets
+# df = df[
+#     df['author_role'].str.contains('Twelve') |  # Matches any role containing "Twelve"
+#     df['author_role'].str.contains('First Presidency') |  # Matches First Presidency roles
+#     df['author_role'].str.contains('President of [Tt]he Church', regex=True)  # Matches both variations 
+# ]
+
+# Filter for years 2015 to present
+# df = df[df['year'] >= 2024]
+
+# Filter for name
+#df = df[df['listed_author'].str.contains('Russell M. Nelson', na=False)]
 
 # Create a list of all words
 all_words = []
 
 for text in df['body_text']:
+
     # Tokenize the text into words
     words = word_tokenize(text.lower())
     # Keep only words (no numbers or punctuation) longer than 3 characters
-    words = [word for word in words if word.isalpha() and len(word) > 3]
+    words = [word for word in words if word.isalpha() and len(word) > 2]
     all_words.extend(words)
 
 # Get English stop words and add custom words
 stop_words = set(stopwords.words('english'))
-custom_stops = {'would', 'said', 'many'}
+custom_stops = {'would', 'said', 'many', 'may', 'day', 'even', 'also',}
 stop_words.update(custom_stops)
 
 # Count word frequencies, excluding stop words
 word_freq = Counter(word for word in all_words if word not in stop_words)
 
 # Get the 20 most common words
-top_20 = word_freq.most_common(20)
+top_20 = word_freq.most_common(50)
+
+# Print analysis information
+print(f"\nAnalyzing {len(df)} talks")
+print(f"Date range: {df['date_published'].min().strftime('%B %Y')} to {df['date_published'].max().strftime('%B %Y')}")
+print(f"Year range: {df['year'].min()} to {df['year'].max()}")
 
 # Print results
 for word, freq in top_20:
@@ -66,21 +81,6 @@ for word, freq in top_20:
 
 print("Stopwords being filtered:", sorted(stopwords.words('english')))
 
-# Configure pandas to show all rows
-pd.set_option('display.max_rows', None)  # Show all rows
-pd.set_option('display.max_columns', None)  # Show all columns
-pd.set_option('display.width', None)  # Don't wrap wide columns
-pd.set_option('display.max_colwidth', None)  # Show full content of each column
 
-# Print all unique author roles with counts
-roles_df = pd.read_sql_query(
-    "SELECT author_role, COUNT(*) as talk_count "
-    "FROM talks "
-    "GROUP BY author_role "
-    "ORDER BY talk_count DESC", 
-    conn
-)
-print("\nUnique author roles and number of talks:")
-print(roles_df)
 
 conn.close()
