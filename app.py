@@ -1,5 +1,5 @@
 import streamlit as st
-from app_functions import query_scriptures, create_visual
+from app_functions import query_scriptures, create_visual, query_conference, create_conference_visual
 
 st.title("The Word of God")
 
@@ -30,6 +30,33 @@ if word:
             else:
                 fig = create_visual(results, comparison=True, volume=selected_volume)
             st.plotly_chart(fig)
+
+        # --- Query and display conference results (comparison mode) ---
+        conf_results = query_conference(word, case_sensitive=case_sensitive, return_per_word=True)
+        if isinstance(conf_results, dict):
+            conf_counts = {w: sum(item['count'] for item in v) for w, v in conf_results.items()}
+            conf_total = sum(conf_counts.values())
+            conf_counts_str = ", ".join([f"'{w}': {c}" for w, c in conf_counts.items()])
+            st.write(f"General Conference occurrences: {conf_total}. Counts per word: {conf_counts_str}")
+            conf_chart_type = st.radio(
+                "Conference visual type",
+                options=["Line", "Bar"],
+                index=0,
+                help="Choose 'Line' to see trends over time, or 'Bar' for a clearer view when there are few occurrences."
+            )
+            conf_fig = create_conference_visual(conf_results, comparison=True, chart_type=conf_chart_type.lower())
+        else:
+            conf_total = sum(item['count'] for item in conf_results)
+            st.write(f"General Conference occurrences: {conf_total}")
+            conf_chart_type = st.radio(
+                "Conference visual type",
+                options=["Line", "Bar"],
+                index=0,
+                help="Choose 'Line' to see trends over time, or 'Bar' for a clearer view when there are few occurrences."
+            )
+            conf_fig = create_conference_visual(conf_results, comparison=True, chart_type=conf_chart_type.lower())
+        st.plotly_chart(conf_fig, use_container_width=True)
+
         # Show results grouped by word (header) and volume (expander)
         for w, verses in results.items():
             st.markdown(f"### Results for '{w}' ({len(verses)})")
@@ -57,6 +84,7 @@ if word:
             else:
                 fig = create_visual(results, volume=selected_volume)
             st.plotly_chart(fig)
+
             # Group verses by volume and show each in an expander
             from collections import defaultdict
             volume_dict = defaultdict(list)
@@ -68,6 +96,19 @@ if word:
                         st.markdown(f"**{book} {chapter}:{verse}** — {text}")
         else:
             st.info("No results found for your search.")
-    
+
+        # --- Always run conference query and display (non-comparison mode) ---
+        conf_results = query_conference(word, case_sensitive=case_sensitive)
+        conf_total = sum(item['count'] for item in conf_results)
+        st.write(f"General Conference occurrences: {conf_total}")
+        conf_chart_type = st.radio(
+            "Conference visual type",
+            options=["Line", "Bar"],
+            index=0,
+            help="Choose 'Line' to see trends over time, or 'Bar' for a clearer view when there are few occurrences."
+        )
+        conf_fig = create_conference_visual(conf_results, chart_type=conf_chart_type.lower())
+        st.plotly_chart(conf_fig, use_container_width=True)
+
 else:
     st.info("Type a word above to search the scriptures.")
